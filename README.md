@@ -114,9 +114,9 @@ Authorization: Bearer jwt.token.aquí
 
 ```json
 {
-  "nombre": "Fulano De Tal",
-  "correo": "fulano.detal@correo.com",
-  "contrasena": "admin1234"
+  "nombre": "Tio Nacho",
+  "correo": "tianacho@correo.com",
+  "contrasena": "nacho123"
 }
 ```
 
@@ -137,8 +137,8 @@ Registro exitoso
 
 ```json
 {
-  "correo": "fulano.detal@correo.com",
-  "contrasena": "admin1234"
+  "correo": "tionacho@correo.com",
+  "contrasena": "nacho123"
 }
 ```
 
@@ -168,8 +168,8 @@ Registro exitoso
 
 ```json
 {
-  "correo": "fulano.detal@correo.com",
-  "contrasena": "admin1234"
+  "correo": "tionachocorreo.com",
+  "contrasena": "nacho123"
 }
 ```
 
@@ -208,7 +208,7 @@ Registro exitoso
 
 ```json
 {
-  "contrasenaActual": "admin1234",
+  "contrasenaActual": "nacho123",
   "contrasenaNueva": "user1234",
   "contrasenaConfirmacion": "user1234"
 }
