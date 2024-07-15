@@ -1,15 +1,19 @@
 # Challenge ONE | Back End | Foro Alura
 
-
+Esta es mi solución al último reto de la formación de Backend con Java y Spring del programa ONE. El proyecto consiste en una réplica del backend del foro de la plataforma Alura Latam, en la que todos los estudiantes de la plataforma podemos hacer preguntasy responder preguntas, colaborando e interactuando con otros estudiantes, así como también con profesores y moderadores.
 
 ## Requerimientos
 
+Los requerimientos para la API REST son los siguientes:
 
 - ✅ Crear una nueva publicación
 - ✅ Mostrar todas las publicaciones creadas
 - ✅ Mostrar una publicación específica
 - ✅ Actualizar una publicación
 - ✅ Eliminar una publicación
+
+Mi proyecto cumple con todos ellos y, además cumple con los siguientes requerimientos adicionales:
+
 - ✅ Registro, ingreso y salida de usuarios
 - ✅ Contraseñas encriptadas con BCrypt Password Encoder
 - ✅ Cambio de contraseña y asignar rol a usuario
@@ -114,9 +118,9 @@ Authorization: Bearer jwt.token.aquí
 
 ```json
 {
-  "nombre": "Tio Nacho",
-  "correo": "tianacho@correo.com",
-  "contrasena": "nacho123"
+  "nombre": "Fulano De Tal",
+  "correo": "fulano.detal@correo.com",
+  "contrasena": "admin1234"
 }
 ```
 
@@ -137,8 +141,8 @@ Registro exitoso
 
 ```json
 {
-  "correo": "tionacho@correo.com",
-  "contrasena": "nacho123"
+  "correo": "fulano.detal@correo.com",
+  "contrasena": "admin1234"
 }
 ```
 
@@ -168,8 +172,8 @@ Registro exitoso
 
 ```json
 {
-  "correo": "tionachocorreo.com",
-  "contrasena": "nacho123"
+  "correo": "fulano.detal@correo.com",
+  "contrasena": "admin1234"
 }
 ```
 
@@ -208,7 +212,7 @@ Registro exitoso
 
 ```json
 {
-  "contrasenaActual": "nacho123",
+  "contrasenaActual": "admin1234",
   "contrasenaNueva": "user1234",
   "contrasenaConfirmacion": "user1234"
 }
@@ -1448,4 +1452,6 @@ Por eso, en mi proyecto, tengo una entidad llamada Etiquetas, en lugar de las ot
 | publicacion    | long    |
 | autor          | long    |
 
+## Insignia por completar el challenge
 
+![Insignia](insignia.png)
